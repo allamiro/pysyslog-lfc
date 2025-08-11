@@ -40,10 +40,13 @@ if ! command_exists python3; then
 fi
 
 PYTHON_VERSION=$(python3 -c 'import sys; print(".".join(map(str, sys.version_info[:2])))')
-if (( $(echo "$PYTHON_VERSION < 3.8" | bc -l) )); then
-    echo "Error: Python 3.8 or higher is required. Found: $PYTHON_VERSION"
-    exit 1
-fi
+# Check if Python version is 3.9 or higher using Python itself
+python3 -c "
+import sys
+if sys.version_info < (3, 9):
+    print('Error: Python 3.9 or higher is required. Found: $PYTHON_VERSION')
+    sys.exit(1)
+"
 
 # Check for required disk space (at least 100MB)
 check_disk_space 100
