@@ -76,7 +76,7 @@ case $DISTRO in
             exit 1
         }
         ;;
-    "ubuntu"|"debian")
+    "ubuntu"|"debian"|"pop")
         if ! command_exists apt-get; then
             echo "Error: apt-get is not available"
             exit 1
