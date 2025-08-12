@@ -1,0 +1,20 @@
+<28>Aug 12 01:20:38 wks.local.domain daemond: cron[57021]: (root) CMD (test -x /usr/sbin/anacron)
+<34>Aug 12 01:20:38 wks.local.domain authd: sudo: www-data : TTY=pts/0 ; PWD=/home/www-data ; USER=root ; COMMAND=/bin/ls
+<176>Aug 12 01:20:38 wks.local.domain local6d: Sample local6 message with pid 46279
+<163>Aug 12 01:20:38 wks.local.domain local4d: Sample local4 message with pid 77250
+<170>Aug 12 01:20:38 wks.local.domain local5d: Sample local5 message with pid 13627
+<87>Aug 12 01:20:38 wks.local.domain authprivd: Sample authpriv message with pid 46624
+<60>Aug 12 01:20:38 wks.local.domain newsd: Sample news message with pid 25334
+<72>Aug 12 01:20:38 wks.local.domain crond: (root) CMD (/usr/bin/updatedb)
+<172>Aug 12 01:20:38 wks.local.domain local5d: Sample local5 message with pid 57694
+<170>Aug 12 01:20:38 wks.local.domain local5d: Sample local5 message with pid 63212
+<167>Aug 12 01:20:38 wks.local.domain local4d: Sample local4 message with pid 2049
+<76>Aug 12 01:20:38 wks.local.domain crond: (CRON) info (No MTA installed, discarding output)
+<90>Aug 12 01:20:38 wks.local.domain ftpd: Sample ftp message with pid 58557
+<32>Aug 12 01:20:38 wks.local.domain authd: sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/ls
+<43>Aug 12 01:20:38 wks.local.domain syslogd: Sample syslog message with pid 39783
+<71>Aug 12 01:20:38 wks.local.domain uucpd: Sample uucp message with pid 97380
+<151>Aug 12 01:20:38 wks.local.domain local2d: Sample local2 message with pid 53320
+<170>Aug 12 01:20:38 wks.local.domain local5d: Sample local5 message with pid 11140
+<94>Aug 12 01:20:38 wks.local.domain ftpd: Sample ftp message with pid 57739
+<170>Aug 12 01:20:38 wks.local.domain local5d: Sample local5 message with pid 37326
